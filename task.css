@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(250, 71, 58);
+    padding: 200px;
+    margin: auto;
+}
+.task{
+  display: flex; 
+  flex-direction: column;
+  gap: 20px;  
+  background-color: white;
+   padding: 50px;
+   width:300px;;
+   margin: 50px auto;
+   /* height: 50px; */
+}
+
+.task label {
+    text-align: center;
+}
+
+form {
+    display: flex; 
+    gap: 20px;  
+}
+.div.item{
+      display: block;
+}
+input, button {
+    display: block;
+    margin: 10px auto;
+}
+button{
+    background-color: chocolate;
+       
+}
+.item p{
+    background-color: rgb(200, 236, 116);
+     
+}
+.lbl{
+    display: flow-root;
+padding: solid;
+}
